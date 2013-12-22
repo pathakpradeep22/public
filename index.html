@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Simple Datepicker</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <link href="css/jquery.simpleDatepicker.css" media="all" rel="stylesheet" type="text/css" />
+<!--<script type="text/javascript" language="javascript" src="js/jquery-1.7.2.min.js"></script>-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.simpleDatepicker.js"></script>
+
+<script language="javascript">
+
+$(document).ready(function(){
+	//Calling through class name
+	$('.pickdate').simpleDatepicker({startYear:2013, endYear:2020});
+	//calling through ID's
+	$('#pickdate1').simpleDatepicker();
+	
+});
+</script>
+</HEAD>
+
+<BODY>
+DOB:<input type="text" name="date" id="pickdate" value="" class="pickdate"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><input type="text" name="date1" id="pickdate1" class="">
+<input type="text" name="date2" id="pickdate2" class="pickdate">
+</BODY>
+</HTML>
