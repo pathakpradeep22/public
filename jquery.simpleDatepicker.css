@@ -1,0 +1,63 @@
+div.calendar{
+	width:200px;
+	height:175px;
+	border:solid 1px #666666;
+	z-index:99;
+	position:absolute;
+	background-color:#EE7901;
+	color:#FFFFFF;
+	box-shadow:5px 5px 5px #888888;
+	font-family: Tahoma;
+	font-size: 12px;
+	padding:5px;
+	
+}
+div.calendar span.nav, span.rightnav{
+cursor:pointer;
+float:left;
+padding:3px;
+}
+div.calendar span.nav:hover{
+	background-color:#FFFFFF;
+	color:#EE7901;
+	 -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+div.calendar tr
+{
+	height:15px;
+}
+
+div.calendar tr td
+{
+	width:25px;
+
+	height:20px;
+	
+}
+
+.today{
+background-color:#006699;
+cursor:default;
+}
+td.caldata{
+cursor:default;
+width:10px;
+padding: 1px;
+height:10px;
+}
+td.selected{
+/*border:solid 1px;*/
+}
+td.caldata:hover{
+cursor:pointer;
+background-color:#0066FF;
+color:#FFFFFF;
+/*font-weight:bold;*/
+border:solid 1px;
+margin:-1px;
+padding:0px;
+box-shadow:3px 3px 5px #000000;
+}
